@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # Paths to your dataset and trained model
-DATA_PATH = r"C:\Users\Yog Dalal\Desktop\SE PRACTICAL\small_dataset.csv"
-MODEL_PATH = r"C:\Users\Yog Dalal\Desktop\SE PRACTICAL\rf_fraud_model.joblib"
+DATA_PATH = "small_dataset.csv"
+MODEL_PATH = "rf_fraud_model.joblib"
 
 # Load data with Streamlit caching
 @st.cache_data
